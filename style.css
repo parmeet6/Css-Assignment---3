@@ -1,0 +1,70 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header, footer {
+    background-color: #f2f2f2;
+    padding: 20px;
+    text-align: center;
+}
+
+main {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+section {
+    width: 45%;
+}
+
+footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.logo img {
+    width: 100px;
+    height: 100px;
+}
+
+.contact-info {
+    text-align: left;
+    margin-bottom: 10px;
+}
+
+.quick-contact-form {
+    margin-top: 10px;
+    text-align: left;
+}
+
+.quick-contact-form h2 {
+    margin-top: 0;
+}
+
+/* Enhancements */
+
+#chocolate-info {
+    background: linear-gradient(to right, #ffd31d, #ff8400);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+#chocolate-images {
+    background-image: url('chocolate-background.jpg');
+    background-size: cover;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+#chocolate-images img {
+    width: 100%;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
